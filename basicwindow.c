@@ -17,7 +17,7 @@ void display(void) {
 	glFlush();/* Force update of screen */
 
 }
-int main(int argc, char** argv) {
+int maini(int argc, char** argv) {
 
 	glutInit(&argc, argv);/* Initialise OpenGL */
 	glutCreateWindow("Basic Window"); /* Create the window */

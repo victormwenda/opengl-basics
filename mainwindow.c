@@ -10,9 +10,12 @@
 
 #include <stdio.h>
 #include <GL/glut.h>
+#include "basicsquare.h"
 
 void windowDisplayCallback() {
+	glClearColor(0.2f,0.9f,0.6f,1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
+	drawSquare();
 	glFlush();
 }
 
